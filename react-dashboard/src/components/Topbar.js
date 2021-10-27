@@ -6,7 +6,7 @@ export default function Topbar() {
         <div className='topbar'>
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <div className="logo">lamaaadmin</div>
+                    <div className="logo">Data Dog 🐕</div>
                 </div>
 
 
