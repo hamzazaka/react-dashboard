@@ -1,4 +1,4 @@
-import { Visibility } from '@material-ui/icons'
+import { Visibility  } from '@material-ui/icons'
 import React from 'react'
 
 export default function WidgetSm() {
@@ -12,8 +12,8 @@ export default function WidgetSm() {
                     <span className='widgetSmUsername'>Anna Keller</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                     </div>
-                    <button className="sidgetSmButton">
-                        <Visibility/> 
+                    <button className="widgetSmButton">
+                        <Visibility className='widgetSmIcon'/> 
                     </button>
                 </li>
                 <li className="widgetSmListItem">
@@ -22,8 +22,8 @@ export default function WidgetSm() {
                     <span className='widgetSmUsername'>Anna Keller</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                     </div>
-                    <button className="sidgetSmButton">
-                        <Visibility/> 
+                    <button className="widgetSmButton">
+                        <Visibility className='widgetSmIcon'/> 
                     </button>
                 </li>
                 <li className="widgetSmListItem">
@@ -32,8 +32,8 @@ export default function WidgetSm() {
                     <span className='widgetSmUsername'>Anna Keller</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                     </div>
-                    <button className="sidgetSmButton">
-                        <Visibility/> 
+                    <button className="widgetSmButton">
+                        <Visibility className='widgetSmIcon'/> 
                     </button>
                 </li>
                 <li className="widgetSmListItem">
@@ -42,8 +42,8 @@ export default function WidgetSm() {
                     <span className='widgetSmUsername'>Anna Keller</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                     </div>
-                    <button className="sidgetSmButton">
-                        <Visibility/> 
+                    <button className="widgetSmButton">
+                        <Visibility className='widgetSmIcon'/> 
                     </button>
                 </li>
                 <li className="widgetSmListItem">
@@ -52,8 +52,8 @@ export default function WidgetSm() {
                     <span className='widgetSmUsername'>Anna Keller</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                     </div>
-                    <button className="sidgetSmButton">
-                        <Visibility/> 
+                    <button className="widgetSmButton">
+                        <Visibility className='widgetSmIcon'/> 
                     </button>
                 </li>
             </ul>
