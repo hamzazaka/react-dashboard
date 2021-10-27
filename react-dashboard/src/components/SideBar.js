@@ -1,5 +1,5 @@
 import React from 'react'
-import { LineStyle, Timeline, TrendingUp } from '@material-ui/icons'
+import { AttachMoney, ChatBubbleOutline, DynamicFeed, Email, Equalizer, Face, Feedback, LineStyle, MailOutline, PermIdentity, Person, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons'
 
 export default function SideBar() {
     return (
@@ -19,20 +19,53 @@ export default function SideBar() {
                             </li>
                     </ul>
                 </div>
-                {/* <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashboard</h3>
+                <div className="sidebarMenu">
+                    <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className='sidebarList'>
                         <li className="sidebarListItem ">
-                            <LineStyle /> Home
+                            <PermIdentity/> Users
                         </li>
                         <li className="sidebarListItem">
-                            <Timeline /> Analytics
+                            <Storefront /> Products
                         </li>
                         <li className="sidebarListItem">
-                            <TrendingUp/> Sales
+                            <AttachMoney/> Transactions
+                        </li>
+                        <li className="sidebarListItem">
+                            <Equalizer/> Reports
                         </li>
                     </ul>
-                </div> */}
+                </div>
+
+                 <div className="sidebarMenu">
+                    <h3 className="sidebarTitle">Notifications</h3>
+                    <ul className='sidebarList'>
+                        <li className="sidebarListItem ">
+                            <Email/> Mail
+                        </li>
+                        <li className="sidebarListItem">
+                            <Feedback/> Feedback
+                        </li>
+                        <li className="sidebarListItem">
+                            <ChatBubbleOutline/> Messages
+                        </li>
+                    </ul>
+                </div>
+
+                 <div className="sidebarMenu">
+                    <h3 className="sidebarTitle">Staff</h3>
+                    <ul className='sidebarList'>
+                        <li className="sidebarListItem ">
+                            <WorkOutline/> Manage
+                        </li>
+                        <li className="sidebarListItem">
+                            <Timeline/> Analytics
+                        </li>
+                        <li className="sidebarListItem">
+                            <Report/> Reports
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

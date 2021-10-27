@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Topbar from './components/Topbar';
 import SideBar from './components/SideBar';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -9,10 +10,8 @@ function App() {
       <Topbar/>
       <div className="container">
         <SideBar/>
-        <div className="others">
-          otherpage</div> 
-      </div>
-      <h1>hello world</h1>
+        <Home/>
+        </div>
     </div>
   );
 }
