@@ -5,54 +5,54 @@ export default function Chart() {
 
     const data = [
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Jan',
+    "Active User" : Math.trunc(Math.random()*230)
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Feb',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Mar',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Apr',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'May',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Jun',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Jul',
+    "Active User" : Math.trunc(Math.random()*300),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Aug',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Sep',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Oct',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Nov',
+    "Active User" : Math.trunc(Math.random()*230),
   },
   {
-    name: 'jan',
-    "Active User" : 4000,
+    name: 'Dec',
+    "Active User" : Math.trunc(Math.random()*230),
   },
-  
+
   
 ];
 
@@ -64,6 +64,8 @@ export default function Chart() {
                 <LineChart data={data}>
                     <XAxis dataKey="name"  stroke='#5550bd'/>
                     <Line type="monotone" dataKey="Active User" stroke="#5550bd" />
+                    <Tooltip />
+                    <CartesianGrid stroke='#e0dfdf' strokeDasharray='5 5'/>
                     </LineChart>
                 </ResponsiveContainer>
         </div>
