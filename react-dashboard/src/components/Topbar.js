@@ -7,6 +7,7 @@ export default function Topbar() {
             <div className="topbarWrapper">
                 <div className="topLeft">
                     <div className="logo">Data Dog </div>
+                    
                 </div>
 
 
